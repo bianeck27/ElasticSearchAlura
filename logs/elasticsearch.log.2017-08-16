@@ -1,0 +1,126 @@
+[2017-08-16 22:57:08,924][INFO ][node                     ] [Lifter] version[2.3.1], pid[22049], build[bd98092/2016-04-04T12:25:05Z]
+[2017-08-16 22:57:08,925][INFO ][node                     ] [Lifter] initializing ...
+[2017-08-16 22:57:09,419][INFO ][plugins                  ] [Lifter] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2017-08-16 22:57:09,438][INFO ][env                      ] [Lifter] using [1] data paths, mounts [[/ (/dev/sda6)]], net usable_space [80.4gb], net total_space [97.2gb], spins? [possibly], types [ext4]
+[2017-08-16 22:57:09,438][INFO ][env                      ] [Lifter] heap size [990.7mb], compressed ordinary object pointers [true]
+[2017-08-16 22:57:09,438][WARN ][env                      ] [Lifter] max file descriptors [4096] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2017-08-16 22:57:11,202][INFO ][node                     ] [Lifter] initialized
+[2017-08-16 22:57:11,202][INFO ][node                     ] [Lifter] starting ...
+[2017-08-16 22:57:11,276][INFO ][transport                ] [Lifter] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-08-16 22:57:11,285][INFO ][discovery                ] [Lifter] elasticsearch/3PYU4FycS1qiDnQVQ0eGDg
+[2017-08-16 22:57:14,345][INFO ][cluster.service          ] [Lifter] new_master {Lifter}{3PYU4FycS1qiDnQVQ0eGDg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2017-08-16 22:57:14,364][INFO ][http                     ] [Lifter] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-08-16 22:57:14,364][INFO ][node                     ] [Lifter] started
+[2017-08-16 22:57:14,461][INFO ][gateway                  ] [Lifter] recovered [0] indices into cluster_state
+[2017-08-16 22:59:57,828][INFO ][node                     ] [Lifter] stopping ...
+[2017-08-16 22:59:57,844][INFO ][node                     ] [Lifter] stopped
+[2017-08-16 22:59:57,844][INFO ][node                     ] [Lifter] closing ...
+[2017-08-16 22:59:57,848][INFO ][node                     ] [Lifter] closed
+[2017-08-16 23:03:14,274][INFO ][node                     ] [Neurotap] version[2.3.1], pid[22511], build[bd98092/2016-04-04T12:25:05Z]
+[2017-08-16 23:03:14,274][INFO ][node                     ] [Neurotap] initializing ...
+[2017-08-16 23:03:14,799][INFO ][plugins                  ] [Neurotap] modules [reindex, lang-expression, lang-groovy], plugins [kopf], sites [kopf]
+[2017-08-16 23:03:14,827][INFO ][env                      ] [Neurotap] using [1] data paths, mounts [[/ (/dev/sda6)]], net usable_space [80.4gb], net total_space [97.2gb], spins? [possibly], types [ext4]
+[2017-08-16 23:03:14,827][INFO ][env                      ] [Neurotap] heap size [990.7mb], compressed ordinary object pointers [true]
+[2017-08-16 23:03:14,827][WARN ][env                      ] [Neurotap] max file descriptors [4096] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2017-08-16 23:03:16,975][INFO ][node                     ] [Neurotap] initialized
+[2017-08-16 23:03:16,975][INFO ][node                     ] [Neurotap] starting ...
+[2017-08-16 23:03:17,054][INFO ][transport                ] [Neurotap] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-08-16 23:03:17,060][INFO ][discovery                ] [Neurotap] elasticsearch/4c_gswk-RxqGcOTHImWOQw
+[2017-08-16 23:03:20,125][INFO ][cluster.service          ] [Neurotap] new_master {Neurotap}{4c_gswk-RxqGcOTHImWOQw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2017-08-16 23:03:20,204][INFO ][http                     ] [Neurotap] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-08-16 23:03:20,206][INFO ][node                     ] [Neurotap] started
+[2017-08-16 23:03:20,258][INFO ][gateway                  ] [Neurotap] recovered [0] indices into cluster_state
+[2017-08-16 23:03:27,024][INFO ][node                     ] [Neurotap] stopping ...
+[2017-08-16 23:03:27,039][INFO ][node                     ] [Neurotap] stopped
+[2017-08-16 23:03:27,039][INFO ][node                     ] [Neurotap] closing ...
+[2017-08-16 23:03:27,049][INFO ][node                     ] [Neurotap] closed
+[2017-08-16 23:04:34,609][INFO ][node                     ] [Gypsy Moth] version[2.3.1], pid[22737], build[bd98092/2016-04-04T12:25:05Z]
+[2017-08-16 23:04:34,610][INFO ][node                     ] [Gypsy Moth] initializing ...
+[2017-08-16 23:04:35,125][ERROR][bootstrap                ] Exception
+java.lang.IllegalStateException: Could not load plugin descriptor for existing plugin [kibana]. Was the plugin built before 2.0?
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:381)
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:128)
+	at org.elasticsearch.node.Node.<init>(Node.java:158)
+	at org.elasticsearch.node.Node.<init>(Node.java:140)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:143)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:178)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:270)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+Caused by: java.nio.file.NoSuchFileException: /var/www/html/DesenvolvedorFrontEnd/elasticsearch-2.3.1/plugins/kibana/plugin-descriptor.properties
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384)
+	at java.nio.file.Files.newInputStream(Files.java:152)
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:87)
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:378)
+	... 7 more
+[2017-08-16 23:05:20,440][INFO ][node                     ] [Scrambler] version[2.3.1], pid[22793], build[bd98092/2016-04-04T12:25:05Z]
+[2017-08-16 23:05:20,440][INFO ][node                     ] [Scrambler] initializing ...
+[2017-08-16 23:05:20,904][ERROR][bootstrap                ] Exception
+java.lang.IllegalStateException: Could not load plugin descriptor for existing plugin [kibana]. Was the plugin built before 2.0?
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:381)
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:128)
+	at org.elasticsearch.node.Node.<init>(Node.java:158)
+	at org.elasticsearch.node.Node.<init>(Node.java:140)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:143)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:178)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:270)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+Caused by: java.nio.file.NoSuchFileException: /var/www/html/DesenvolvedorFrontEnd/elasticsearch-2.3.1/plugins/kibana/plugin-descriptor.properties
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384)
+	at java.nio.file.Files.newInputStream(Files.java:152)
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:87)
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:378)
+	... 7 more
+[2017-08-16 23:05:42,194][INFO ][node                     ] [Stick] version[2.3.1], pid[22834], build[bd98092/2016-04-04T12:25:05Z]
+[2017-08-16 23:05:42,195][INFO ][node                     ] [Stick] initializing ...
+[2017-08-16 23:05:42,659][ERROR][bootstrap                ] Exception
+java.lang.IllegalStateException: Could not load plugin descriptor for existing plugin [kibana-4.5.0-linux-x64]. Was the plugin built before 2.0?
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:381)
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:128)
+	at org.elasticsearch.node.Node.<init>(Node.java:158)
+	at org.elasticsearch.node.Node.<init>(Node.java:140)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:143)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:178)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:270)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+Caused by: java.nio.file.NoSuchFileException: /var/www/html/DesenvolvedorFrontEnd/elasticsearch-2.3.1/plugins/kibana-4.5.0-linux-x64/plugin-descriptor.properties
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384)
+	at java.nio.file.Files.newInputStream(Files.java:152)
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:87)
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:378)
+	... 7 more
+[2017-08-16 23:05:49,697][INFO ][node                     ] [Jackal] version[2.3.1], pid[22867], build[bd98092/2016-04-04T12:25:05Z]
+[2017-08-16 23:05:49,698][INFO ][node                     ] [Jackal] initializing ...
+[2017-08-16 23:05:50,248][INFO ][plugins                  ] [Jackal] modules [reindex, lang-expression, lang-groovy], plugins [kopf], sites [kopf]
+[2017-08-16 23:05:50,269][INFO ][env                      ] [Jackal] using [1] data paths, mounts [[/ (/dev/sda6)]], net usable_space [80.2gb], net total_space [97.2gb], spins? [possibly], types [ext4]
+[2017-08-16 23:05:50,269][INFO ][env                      ] [Jackal] heap size [990.7mb], compressed ordinary object pointers [true]
+[2017-08-16 23:05:50,269][WARN ][env                      ] [Jackal] max file descriptors [4096] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2017-08-16 23:05:52,273][INFO ][node                     ] [Jackal] initialized
+[2017-08-16 23:05:52,273][INFO ][node                     ] [Jackal] starting ...
+[2017-08-16 23:05:52,347][INFO ][transport                ] [Jackal] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-08-16 23:05:52,352][INFO ][discovery                ] [Jackal] elasticsearch/CC2cYm7ZTwilelSFHSm-kQ
+[2017-08-16 23:05:55,414][INFO ][cluster.service          ] [Jackal] new_master {Jackal}{CC2cYm7ZTwilelSFHSm-kQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2017-08-16 23:05:55,462][INFO ][http                     ] [Jackal] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-08-16 23:05:55,463][INFO ][node                     ] [Jackal] started
+[2017-08-16 23:05:55,530][INFO ][gateway                  ] [Jackal] recovered [0] indices into cluster_state
+[2017-08-16 23:25:22,294][INFO ][cluster.metadata         ] [Jackal] [catalogo] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [pessoas]
+[2017-08-16 23:25:23,180][INFO ][cluster.routing.allocation] [Jackal] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[catalogo][4]] ...]).
+[2017-08-16 23:25:23,250][INFO ][cluster.metadata         ] [Jackal] [catalogo] update_mapping [pessoas]
+[2017-08-16 23:27:08,098][INFO ][cluster.metadata         ] [Jackal] updating number_of_replicas to [0] for indices [catalogo]

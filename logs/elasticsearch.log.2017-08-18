@@ -1,0 +1,57 @@
+[2017-08-17 00:03:00,493][INFO ][node                     ] [Jackal] stopping ...
+[2017-08-17 00:03:00,535][INFO ][node                     ] [Jackal] stopped
+[2017-08-17 00:03:00,535][INFO ][node                     ] [Jackal] closing ...
+[2017-08-17 00:03:00,541][INFO ][node                     ] [Jackal] closed
+[2017-08-17 21:17:04,354][ERROR][bootstrap                ] Exception
+java.lang.RuntimeException: don't run elasticsearch as root.
+	at org.elasticsearch.bootstrap.Bootstrap.initializeNatives(Bootstrap.java:93)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:144)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:270)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+[2017-08-17 21:17:53,582][INFO ][node                     ] [Temugin] version[2.3.1], pid[28310], build[bd98092/2016-04-04T12:25:05Z]
+[2017-08-17 21:17:53,583][INFO ][node                     ] [Temugin] initializing ...
+[2017-08-17 21:17:54,571][INFO ][plugins                  ] [Temugin] modules [reindex, lang-expression, lang-groovy], plugins [kopf], sites [kopf]
+[2017-08-17 21:17:54,673][INFO ][env                      ] [Temugin] using [1] data paths, mounts [[/ (/dev/sda6)]], net usable_space [79.7gb], net total_space [97.2gb], spins? [possibly], types [ext4]
+[2017-08-17 21:17:54,674][INFO ][env                      ] [Temugin] heap size [990.7mb], compressed ordinary object pointers [true]
+[2017-08-17 21:17:54,674][WARN ][env                      ] [Temugin] max file descriptors [4096] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2017-08-17 21:17:57,852][INFO ][node                     ] [Temugin] initialized
+[2017-08-17 21:17:57,853][INFO ][node                     ] [Temugin] starting ...
+[2017-08-17 21:17:58,004][INFO ][transport                ] [Temugin] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-08-17 21:17:58,014][INFO ][discovery                ] [Temugin] elasticsearch/CwRvtUlmS-qjU050yib_8w
+[2017-08-17 21:18:01,044][INFO ][cluster.service          ] [Temugin] new_master {Temugin}{CwRvtUlmS-qjU050yib_8w}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2017-08-17 21:18:01,065][INFO ][http                     ] [Temugin] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-08-17 21:18:01,065][INFO ][node                     ] [Temugin] started
+[2017-08-17 21:18:01,444][INFO ][gateway                  ] [Temugin] recovered [1] indices into cluster_state
+[2017-08-17 21:18:02,616][INFO ][cluster.routing.allocation] [Temugin] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[catalogo][4], [catalogo][4]] ...]).
+[2017-08-17 21:39:12,822][INFO ][node                     ] [Temugin] stopping ...
+[2017-08-17 21:39:12,870][INFO ][node                     ] [Temugin] stopped
+[2017-08-17 21:39:12,870][INFO ][node                     ] [Temugin] closing ...
+[2017-08-17 21:39:12,878][INFO ][node                     ] [Temugin] closed
+[2017-08-18 21:34:20,186][ERROR][bootstrap                ] Exception
+java.lang.RuntimeException: don't run elasticsearch as root.
+	at org.elasticsearch.bootstrap.Bootstrap.initializeNatives(Bootstrap.java:93)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:144)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:270)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+[2017-08-18 21:35:03,254][INFO ][node                     ] [Conquest] version[2.3.1], pid[11560], build[bd98092/2016-04-04T12:25:05Z]
+[2017-08-18 21:35:03,255][INFO ][node                     ] [Conquest] initializing ...
+[2017-08-18 21:35:03,964][INFO ][plugins                  ] [Conquest] modules [reindex, lang-expression, lang-groovy], plugins [kopf], sites [kopf]
+[2017-08-18 21:35:04,023][INFO ][env                      ] [Conquest] using [1] data paths, mounts [[/ (/dev/sda6)]], net usable_space [79.3gb], net total_space [97.2gb], spins? [possibly], types [ext4]
+[2017-08-18 21:35:04,024][INFO ][env                      ] [Conquest] heap size [990.7mb], compressed ordinary object pointers [true]
+[2017-08-18 21:35:04,024][WARN ][env                      ] [Conquest] max file descriptors [4096] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2017-08-18 21:35:06,935][INFO ][node                     ] [Conquest] initialized
+[2017-08-18 21:35:06,936][INFO ][node                     ] [Conquest] starting ...
+[2017-08-18 21:35:07,049][INFO ][transport                ] [Conquest] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-08-18 21:35:07,067][INFO ][discovery                ] [Conquest] elasticsearch/AOT4Cj5NTiiCJYrr7Fw0_w
+[2017-08-18 21:35:10,121][INFO ][cluster.service          ] [Conquest] new_master {Conquest}{AOT4Cj5NTiiCJYrr7Fw0_w}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2017-08-18 21:35:10,182][INFO ][http                     ] [Conquest] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-08-18 21:35:10,183][INFO ][node                     ] [Conquest] started
+[2017-08-18 21:35:10,336][INFO ][gateway                  ] [Conquest] recovered [1] indices into cluster_state
+[2017-08-18 21:35:11,317][INFO ][cluster.routing.allocation] [Conquest] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[catalogo][0], [catalogo][0]] ...]).
+[2017-08-18 22:45:24,693][INFO ][cluster.metadata         ] [Conquest] [catalogo] update_mapping [pessoas]
+[2017-08-18 22:47:21,517][INFO ][cluster.metadata         ] [Conquest] [catalogo] update_mapping [pessoas]
+[2017-08-18 22:48:55,300][INFO ][cluster.metadata         ] [Conquest] [catalogo] update_mapping [pessoas]
+[2017-08-18 22:50:09,891][INFO ][node                     ] [Conquest] stopping ...
+[2017-08-18 22:50:10,090][INFO ][node                     ] [Conquest] stopped
+[2017-08-18 22:50:10,091][INFO ][node                     ] [Conquest] closing ...
+[2017-08-18 22:50:10,098][INFO ][node                     ] [Conquest] closed

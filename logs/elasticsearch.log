@@ -1,0 +1,21 @@
+[2017-08-19 21:16:19,308][INFO ][node                     ] [Crystal] version[2.3.1], pid[5070], build[bd98092/2016-04-04T12:25:05Z]
+[2017-08-19 21:16:19,310][INFO ][node                     ] [Crystal] initializing ...
+[2017-08-19 21:16:20,415][INFO ][plugins                  ] [Crystal] modules [reindex, lang-expression, lang-groovy], plugins [kopf], sites [kopf]
+[2017-08-19 21:16:20,528][INFO ][env                      ] [Crystal] using [1] data paths, mounts [[/ (/dev/sda6)]], net usable_space [78.8gb], net total_space [97.2gb], spins? [possibly], types [ext4]
+[2017-08-19 21:16:20,528][INFO ][env                      ] [Crystal] heap size [990.7mb], compressed ordinary object pointers [true]
+[2017-08-19 21:16:20,528][WARN ][env                      ] [Crystal] max file descriptors [4096] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2017-08-19 21:16:25,570][INFO ][node                     ] [Crystal] initialized
+[2017-08-19 21:16:25,570][INFO ][node                     ] [Crystal] starting ...
+[2017-08-19 21:16:26,038][INFO ][transport                ] [Crystal] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-08-19 21:16:26,053][INFO ][discovery                ] [Crystal] elasticsearch/3vhY8IGZQqyAktoZKRo_Uw
+[2017-08-19 21:16:29,111][INFO ][cluster.service          ] [Crystal] new_master {Crystal}{3vhY8IGZQqyAktoZKRo_Uw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2017-08-19 21:16:29,130][INFO ][http                     ] [Crystal] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-08-19 21:16:29,130][INFO ][node                     ] [Crystal] started
+[2017-08-19 21:16:29,699][INFO ][gateway                  ] [Crystal] recovered [1] indices into cluster_state
+[2017-08-19 21:16:30,788][INFO ][cluster.routing.allocation] [Crystal] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[catalogo][4], [catalogo][4], [catalogo][1], [catalogo][2], [catalogo][2]] ...]).
+[2017-08-19 23:28:38,095][INFO ][cluster.metadata         ] [Crystal] [catalogo_v2] creating index, cause [api], templates [], shards [3]/[0], mappings [pessoas_v2]
+[2017-08-19 23:28:38,490][INFO ][cluster.routing.allocation] [Crystal] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[catalogo_v2][0], [catalogo_v2][1], [catalogo_v2][0]] ...]).
+[2017-08-19 23:36:48,125][INFO ][node                     ] [Crystal] stopping ...
+[2017-08-19 23:36:48,183][INFO ][node                     ] [Crystal] stopped
+[2017-08-19 23:36:48,183][INFO ][node                     ] [Crystal] closing ...
+[2017-08-19 23:36:48,192][INFO ][node                     ] [Crystal] closed
